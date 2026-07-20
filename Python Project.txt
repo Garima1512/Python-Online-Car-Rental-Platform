@@ -1,0 +1,34 @@
+Online Car Rental Platform .
+Course-end Project 1
+Description
+
+Build an online car rental platform using Object-Oriented Programming in Python.
+
+Problem Statement:
+
+A car rental company has requested you to build an online car rental platform where customers should be able to view the available cars that can be rented on an hourly, daily, or weekly basis. The company can display the available inventory and confirm requests by checking the available stock. Customers will receive an auto-generated bill when they return the car.
+
+For simplicity, let’s assume that:
+
+Customers can rent cars from any one of the following options—hourly, daily, or weekly rental.
+Customers are free to choose any number of cars they want, provided the number of available cars is more than the number of requested cars.
+You must use the following tools:
+
+Jupyter Notebook: To create the module and main project files
+
+Instructions to Perform:
+
+Create a module (.py file) for car rental and import the built-in module DateTime to handle the rental time and bill.
+Create a class for renting the cars and define a constructor in it.
+Define a method for displaying the available cars. Also, define methods for renting cars on an hourly, daily and weekly basis, respectively.
+Inside these methods, make sure that the number of requested cars is positive and lesser than the total available cars.
+Store the time of renting a car in a variable, which can later be used in the bill while returning the car.
+Define a method to return the cars using rental time, rental mode (hourly, daily, or weekly), and the number of cars rented.
+Inside the return method; update the inventory stock, calculate the rental period, and generate the final bill.
+Create a class for customers and define a constructor in it.
+Define methods for requesting the cars and returning them.
+Next, create the main project (.ipynb) file and import the car rental module.
+Define the main method and create objects for both car rental and customer classes.
+Inside the main method, take the customer’s input as a choice for displaying car availability, rental modes, or returning the cars.
+Use the relevant method for the customer’s input and print relevant messages.
+Run the main method to start your project.
